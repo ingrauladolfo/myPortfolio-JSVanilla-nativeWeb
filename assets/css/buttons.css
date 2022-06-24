@@ -1,0 +1,46 @@
+/**
+ * /* Buttons
+ *
+ * @format
+ */
+
+button {
+  font-family: inherit;
+  user-select: none;
+}
+.btn {
+  line-height: 1.5;
+  background-color: var(--blue-alpha-25);
+  border: 1px solid var(--blue-alpha-40);
+  padding: 10px 28px;
+  display: inline-block;
+  border-radius: 30px;
+  color: var(--main-color);
+  font-size: 500;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  transition: color 0.3s ease;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: var(--main-color);
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+.btn:hover::before {
+  width: 100%;
+}
+.btn:hover {
+  color: var(--white);
+}

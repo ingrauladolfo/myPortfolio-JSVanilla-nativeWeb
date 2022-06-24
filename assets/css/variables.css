@@ -1,0 +1,14 @@
+:root{
+    --main-color:#A81128; /* --main-color*/
+    --blue: #18B1F5; /* --blue*/ 
+    --blue-light:#197CA8;
+    --blue-dark: #18293c ; /* --blue-dark*/
+    --orange: #ffa500; /* --orange*/
+    --yellow: #F5ED49; /* --green-yellow*/
+    --red-light: #F5314E; /* --pink-light*/
+    --cyan-light: #aef1ee; /* --cyan-light*/
+    --white: #ffffff; /* --white*/
+    --blue-alpha-40: rgba(24, 177, 245, .40); /* --white-alpha-40*/
+    --blue-alpha-25: rgba(24, 177, 245, .25); /* --white-alpha-25*/
+    --backdrop-filter-blur: blur(10px); /* --backdrop-filter-blur*/
+}
